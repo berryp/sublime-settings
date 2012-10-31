@@ -1,0 +1,12 @@
+[
+    {
+        "caption": "Hg",
+        "children":
+        [
+            { "caption": "Diff", "command": "hg_diff_side", "args": {"paths": []} }
+            ,{ "caption": "Add", "command": "hg_add_side", "args": {"paths": []} }
+            ,{ "caption": "Remove", "command": "hg_remove_side", "args": {"paths": []} }
+            ,{ "caption": "Annotate", "command": "hg_annotate_side", "args": {"paths": []} }
+        ]
+    }
+]

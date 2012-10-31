@@ -1,0 +1,20 @@
+[
+    {
+        "caption": "SublimeQSL: Open Questionnaire",
+        "command": "open_questionnaire"
+    },
+    {
+        "caption": "Preferences: SublimeQSL – Default",
+        "command": "open_file", "args":
+        {
+            "file": "${packages}/SublimeQSL/SublimeQSL.sublime-settings"
+        }
+    },
+    {
+        "caption": "Preferences: Sublime QSL Settings – User",
+        "command": "open_file", "args":
+        {
+            "file": "${packages}/User/SublimeQSL.sublime-settings"
+        }
+    }
+]

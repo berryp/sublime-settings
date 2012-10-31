@@ -1,0 +1,53 @@
+[
+    {
+        "id": "tools",
+        "children":
+        [
+            {
+                "caption": "Hg",
+                "children":
+                [
+                    {
+                        "caption": "This file",
+                        "children":
+                        [
+                            { "caption": "Log", "command": "hg_log" }
+                            ,{ "caption": "Diff", "command": "hg_diff" }
+                            ,{ "caption": "Add", "command": "hg_add" }
+                            ,{ "caption": "Remove", "command": "hg_remove" }
+                            ,{ "caption": "Quick Commit", "command": "hg_commit" }
+                            ,{ "caption": "Annotate", "command": "hg_annotate" }
+                        ]
+                    }
+                    ,{
+                        "caption": "Whole repo",
+                        "children":
+                        [
+                            { "caption": "Log", "command": "hg_log_all" }
+                            ,{ "caption": "Diff", "command": "hg_diff_all" }
+                            ,{ "caption": "Add...", "command": "hg_add_choice" }
+                            ,{ "caption": "Push", "command": "hg_push" }
+                            ,{ "caption": "Pull", "command": "hg_pull" }
+                            ,{ "caption": "Fetch", "command": "hg_fetch" }
+
+                        ]
+                    }
+                    ,{
+                        "caption": "Shelve",
+                        "children":
+                        [
+                            { "caption": "Save", "command": "git_shelve" }
+                            ,{ "caption": "Pop", "command": "git_unshelve" }
+                        ]
+                    }
+                    ,{ "caption": "-" }
+                    ,{ "caption": "Status...", "command": "hg_status" }
+                    ,{ "caption": "Branches...", "command": "hg_branch" }
+                    ,{ "caption": "-" }
+                    ,{ "caption": "hg4subl update", "command": "hg4subl_update" }
+                    ,{ "caption": "Custom command", "command": "hg_custom" }
+                ]
+            }
+        ]
+    }
+]

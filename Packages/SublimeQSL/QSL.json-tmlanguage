@@ -1,0 +1,59 @@
+{
+    "patterns": [
+        {
+            "name": "keyword.source.qsl", 
+            "match": "\\[.*\\]"
+        }, 
+        {
+            "name": "keyword.source.qsl", 
+            "match": "<[\\w ]+>"
+        }, 
+        {
+            "name": "comment.source.qsl", 
+            "match": "^#.*$"
+        }, 
+        {
+            "match": "(\\{)([\\w]+)( survey| page| module| end)?[\\w =\"]+?(\\})",
+            "captures": {
+                "1":  {
+                    "name": "keyword.source.qsl"
+                },
+                "2":  {
+                    "name": "keyword.source.qsl"
+                },
+                "3":  {
+                    "name": "keyword.source.qsl"
+                },
+                "4":  {
+                    "name": "keyword.source.qsl"
+                }
+            }
+        }, 
+        {
+            "patterns": [
+                {
+                    "include": "source.python"
+                }
+            ], 
+            "begin": "^\\{[\\s]+$", 
+            "end": "(^\\}[\\s]+$)", 
+            "name": "source.python.embedded.qsl"
+        },
+        {
+            "patterns": [
+                {
+                    "include": "text.html.basic"
+                }
+            ],
+            "begin": "<",
+            "end": ">", 
+            "name": "text.html.embedded.qsl"
+        }
+    ], 
+    "uuid": "294d689d-d166-4fe4-93c3-37e10ddeb84f", 
+    "fileTypes": [
+        "qsl"
+    ], 
+    "name": "QSL", 
+    "scopeName": "source.qsl"
+}

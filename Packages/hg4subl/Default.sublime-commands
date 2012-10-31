@@ -1,0 +1,74 @@
+[
+    {
+        "caption": "Hg: Blame",
+        "command": "hg_blame"
+    }
+    ,{
+        "caption": "Hg: Log Current File",
+        "command": "hg_log"
+    }
+    ,{
+        "caption": "Hg: Log All",
+        "command": "hg_log_all"
+    }
+    ,{
+        "caption": "Hg: Custom Command",
+        "command": "hg_custom"
+    }
+    ,{
+        "caption": "Hg: Diff Current File",
+        "command": "hg_diff"
+    }
+    ,{
+        "caption": "Hg: Diff All",
+        "command": "hg_diff_all"
+    }
+    ,{
+        "caption": "Hg: Quick Commit",
+        "command": "hg_commit"
+    }
+    ,{
+        "caption": "Hg: Status",
+        "command": "hg_status"
+    }
+    ,{
+        "caption": "Hg: Change Branch",
+        "command": "hg_branch"
+    }
+    ,{
+        "caption": "Hg: Stash Changes",
+        "command": "hg_stash"
+    }
+    ,{
+        "caption": "Hg: Stash Pop",
+        "command": "hg_stash_pop"
+    }
+    ,{
+        "caption": "Hg: Add Current File",
+        "command": "hg_add"
+    }
+    ,{
+        "caption": "Hg: Choose File To Add",
+        "command": "hg_add_choice"
+    }
+    ,{
+        "caption": "Hg: Remove Current File",
+        "command": "hg_remove"
+    }
+    ,{
+        "caption": "Hg: Update hg4subl",
+        "command": "hg4subl_update"
+    },
+    {
+        "caption": "Hg: Push",
+        "command": "hg_push"
+    },
+    {
+        "caption": "Hg: Pull",
+        "command": "hg_pull"
+    },
+    {
+        "caption": "Hg: Fetch",
+        "command": "hg_fetch"
+    }
+]

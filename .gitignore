@@ -1,0 +1,10 @@
+sftp_servers/
+Gist.sublime-settings
+Backup/
+Projects/
+*.orig
+.DS_Store
+*.cache
+*.pyc
+*.sublime_session
+*.sublime_license

@@ -1,0 +1,41 @@
+{
+	"auto_upgrade_last_run": 1351718395,
+	"installed_packages":
+	[
+		"AAAPackageDev",
+		"ADBView",
+		"All Autocomplete",
+		"AngularJS",
+		"Backbone.js",
+		"CTags",
+		"Function Name Display",
+		"Gist",
+		"Handlebars",
+		"hg4subl",
+		"Http Requester",
+		"Jinja2",
+		"LESS",
+		"Mako",
+		"Nodejs",
+		"Origami",
+		"Package Control",
+		"Pretty JSON",
+		"PythonOpenModule",
+		"Sass",
+		"SASS Build",
+		"SFTP",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeHg",
+		"SublimeLinter",
+		"SublimeQSL",
+		"Theme - Soda",
+		"Tomorrow Color Schemes",
+		"ZenCoding"
+	],
+	"repository_channels":
+	[
+		"https://sublime.wbond.net/repositories.json",
+		"https://raw.github.com/berryp/sublime_package_control_channel/master/repositories.json"
+	]
+}
